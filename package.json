@@ -1,0 +1,19 @@
+{
+  "name": "healthtech-appointment-spend-cap",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/appointment_service.ts",
+    "test": "tsx --test src/appointment_service.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "openai": "^4.104.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
